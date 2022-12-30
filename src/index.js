@@ -1,5 +1,7 @@
 import './styles/main.scss';
 
+import MDXContent from './content/test.mdx'
+
 // Create a class property without a constructor
 class Game {  name = 'Violin Charades'}
 const myGame = new Game()// Create paragraph node
@@ -15,3 +17,4 @@ heading.textContent = 'Interesting!';
 const app = document.querySelector('#root');
 app.append(heading);
 app.append(p);
+<MDXContent />
